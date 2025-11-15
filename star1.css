@@ -1,0 +1,49 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.parent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.next{
+    position: absolute;
+    border-radius: 0.7rem;
+    top: 530px;
+    left: 1125px;
+    font-size: 25px;
+}
+
+.prev{
+    position: absolute;
+    border-radius: 0.7rem;
+    top: 530px;
+    font-size: 25px;
+    left: 40px;
+    
+}
+
+.star2{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 55px;
+    left: 250px;
+    background-color: rgba(128,128,128,0.5);
+    border: 2px dotted rgb(42, 41, 41);
+}
+
+img{
+    position: absolute;
+    left: 550px;
+    top: 20px;
+}
+
+p{
+    color: white;
+}
