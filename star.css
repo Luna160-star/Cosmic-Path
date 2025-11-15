@@ -1,0 +1,49 @@
+body{
+    background-image: url("background.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parent{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+.next{
+    position: absolute;
+    border-radius: 0.7rem;
+    top: 530px;
+    left: 1125px;
+    font-size: 25px;
+    background-color: rgb(199, 148, 246);
+}
+
+.prev{
+    position: absolute;
+    border-radius: 0.7rem;
+    top: 530px;
+    left: 40px;
+    font-size: 25px;
+    background-color: rgb(199, 148, 246);
+
+}
+
+.star1{
+    width: 800px;
+    height: 500px;
+    border: 2px dotted rgb(42, 41, 41);
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+img{
+    position: absolute;
+    left: 550px;
+    top: 20px;
+}
