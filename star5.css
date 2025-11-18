@@ -25,6 +25,7 @@ body{
     top: 530px;
     left: 1125px;
     font-size: 25px;
+
 }
 
 .star5{
@@ -34,6 +35,8 @@ body{
     top: 55px;
     left: 250px;
     border: 2px dotted rgb(42, 41, 41);
+    background-color: rgba(128, 128, 128, 0.5);
+
 }
 
 img{
